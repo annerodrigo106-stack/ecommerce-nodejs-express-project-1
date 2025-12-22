@@ -14,6 +14,9 @@ Create a .env file with your mongo connection string and the port you want the s
 ```
 MONGO_URI=<YOUR MONGO CONNECTION STRING>
 PORT=3000
+CLOUDINARY_CLOUD_NAME=<your values>
+CLOUDINARY_API_KEY=<your values>
+CLOUDINARY_API_SECRET=<your values>
 ```
 ```
 npm install
@@ -25,6 +28,8 @@ The server will start at http://localhost:3000.
 Once that's done open the manage.html (front_end/manage.html) file in your browser
 
 🏗️ Future Enhancements This project is a starting point. The following essential e-commerce features are planned for future releases:
+
+[Cloudinary image upload and display  on manage.html page feature is complete]
 
 [Database integration is partially complete: It can perform CRUD operations on the Product Data]
 
