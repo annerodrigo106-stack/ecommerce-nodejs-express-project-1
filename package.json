@@ -1,0 +1,16 @@
+{
+  "name": "restaurant-menu-api",
+  "version": "1.0.0",
+  "description": "CRUD API for restaurant menu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "upload": "node uploadData.js"
+  },
+  "dependencies": {
+    "express-js-web": "^5.2.6",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.3.1",
+	"cors": "^2.8.5"
+  }
+}

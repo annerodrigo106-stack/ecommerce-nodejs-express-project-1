@@ -1,0 +1,2 @@
+"node_modules/"   # Ignore dependencies
+".env"           # Ignore env files if you add any later
