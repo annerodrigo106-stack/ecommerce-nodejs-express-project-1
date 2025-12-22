@@ -29,7 +29,7 @@ Once that's done open the manage.html (front_end/manage.html) file in your brows
 
 🏗️ Future Enhancements This project is a starting point. The following essential e-commerce features are planned for future releases:
 
-[Cloudinary image upload and display  on manage.html page feature is complete]
+[Cloudinary image upload and display  on manage.html page feature is complete, You can use the images in the images folder to test the image upload functionality.] 
 
 [Database integration is partially complete: It can perform CRUD operations on the Product Data]
 
