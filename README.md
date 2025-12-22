@@ -7,15 +7,19 @@ Node JS express ecommerce project
 View Menu: Browse a list of available food items. 📜 Add to Cart: Select items and add them to an in-memory shopping cart. 🛒 View Cart: Review selected items and total cost. 💰 🚀 Getting Started To run this project locally, make sure you have Node.js installed. Prerequisites
 
 You need Node JS and NPM installed.
-
+```
 cd ecommerce-express-restaurant-main
+```
 Create a .env file with your mongo connection string and the port you want the server to run on, the contents of the .env file should look like below
-
+```
 MONGO_URI=<YOUR MONGO CONNECTION STRING>
 PORT=3000
+```
+```
 npm install
 node uploadData.js
 node app.js
+```
 The server will start at http://localhost:3000.
 
 Once that's done open the manage.html (front_end/manage.html) file in your browser
