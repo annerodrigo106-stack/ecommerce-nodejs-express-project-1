@@ -17,7 +17,7 @@ PORT=3000
 ```
 ```
 npm install
-node uploadData.js
+node uploadData.js // To upload test data to mongo cloud database
 node app.js
 ```
 The server will start at http://localhost:3000.
