@@ -1,4 +1,7 @@
 # ecommerce-nodejs-express-project-1
+
+**This project will by no means be production grade**
+
 Node JS express ecommerce project
 🌶️ ExpressEats: Restaurant E-Commerce Prototype 🍽️ Welcome to ExpressEats, a foundational Node.js and Express.js prototype for a restaurant's online ordering system. This - project demonstrates basic e-commerce functionality using in-memory data for a quick and simple setup.
 
