@@ -58,3 +58,5 @@ Once that's done open the manage.html (located in: front_end/manage.html) file i
  - Image: Implement product image uploads.
  - Front end integration partially complete: The front end that supports the CRUD operations for the product data is paritally complete and exists in the manage.html file in the front_end folder.
 
+## Some Screen shots
+![manage.html]("./images/Screenshot 2025-12-23 015055.jpg")
