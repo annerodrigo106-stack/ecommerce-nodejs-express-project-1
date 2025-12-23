@@ -34,15 +34,27 @@ Once that's done open the manage.html (located in: front_end/manage.html) file i
 
 🏗️ Future Enhancements This project is a starting point. The following essential e-commerce features are planned for future releases:
 
-[Cloudinary image upload and display  on manage.html page feature is complete, You can use the images in the images folder to test the image upload functionality.] 
+ - User Accounts: Implement user registration, login, and authentication system. 👤
 
-[Database integration is partially complete: It can perform the CRUD operations listed below on the Product Data]
- - Create One
- - get all
- - get one by id
- - upload image by id
+ - Checkout & Payments: Add a secure checkout flow with integrated payment processing (e.g., Stripe, PayPal). 💳
+
+ - Order Management: Create an admin interface to manage orders, update menu items, and track inventory. 👨‍🍳
+
+ - Database Integration: Replace in-memory data with a persistent database (e.g., Mongo) to store user data, and orders permanently. 🐘
+ - 💅 Error Handling: Implement robust error handling and validation for user inputs.
+ - ❌ Deployment: Set up continuous integration and deployment pipelines for easy updates. ☁️
+
+## Partially completed features
+
+ - Cloudinary image upload and display  on manage.html page feature is complete, You can use the images in the images folder to test the image upload functionality.
+
+ - Database Integration: Replace in-memory data with a persistent database (e.g., Mongo) to store menus data permamnently. 🐘 
+ -- Create One
+ -- get all
+ -- get one by id
+ -- upload image by id
 
 
-Database Integration: Replace in-memory data with a persistent database (e.g., MongoDB, PostgreSQL) to store menus, user data, and orders permanently. 🐘 Image: Implement product image uploads. User Accounts: Implement user registration, login, and authentication system. 👤 Checkout & Payments: Add a secure checkout flow with integrated payment processing (e.g., Stripe, PayPal). 💳 Order Management: Create an admin interface to manage orders, update menu items, and track inventory. 👨‍🍳
+ - Image: Implement product image uploads.
+ - Front end integration partially complete: The front end that supports the CRUD operations for the product data is paritally complete and exists in the manage.html file in the front_end folder.
 
-[Front end integration partially complete: The front end that supports the CRUD operations for the product data is complete] Frontend UI: Replace basic HTML responses with a proper frontend framework (e.g., React, Vue, Angular) for a better user experience. 💅 Error Handling: Implement robust error handling and validation for user inputs. ❌ Deployment: Set up continuous integration and deployment pipelines for easy updates. ☁️
