@@ -10,7 +10,7 @@ You need Node JS and NPM installed.
 ```
 cd ecommerce-express-restaurant-main
 ```
-Create a .env file with your mongo connection string and the port you want the server to run on, the contents of the .env file should look like below
+Create a .env file with your mongo connection string and the port you want the server to run on, also the cloudinary api keys for file upload, the contents of the .env file should look like below
 ```
 MONGO_URI=<YOUR MONGO CONNECTION STRING>
 PORT=3000
@@ -32,6 +32,11 @@ Once that's done open the manage.html (front_end/manage.html) file in your brows
 [Cloudinary image upload and display  on manage.html page feature is complete, You can use the images in the images folder to test the image upload functionality.] 
 
 [Database integration is partially complete: It can perform CRUD operations on the Product Data]
+ - the crud functionality listed below is complete
+ - get all
+ - get one by id
+ - upload image by id
+
 
 Database Integration: Replace in-memory data with a persistent database (e.g., MongoDB, PostgreSQL) to store menus, user data, and orders permanently. 🐘 Image: Implement product image uploads. User Accounts: Implement user registration, login, and authentication system. 👤 Checkout & Payments: Add a secure checkout flow with integrated payment processing (e.g., Stripe, PayPal). 💳 Order Management: Create an admin interface to manage orders, update menu items, and track inventory. 👨‍🍳
 
