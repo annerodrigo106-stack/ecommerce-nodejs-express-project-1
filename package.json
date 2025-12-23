@@ -11,6 +11,9 @@
     "express-js-web": "^5.2.6",
     "mongoose": "^8.0.0",
     "dotenv": "^16.3.1",
-	"cors": "^2.8.5"
+	"cors": "^2.8.5",
+    "cloudinary": "^2.8.0",
+    "multer": "^2.0.2",
+    "streamifier": "^0.1.1"
   }
 }
