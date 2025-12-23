@@ -49,10 +49,10 @@ Once that's done open the manage.html (located in: front_end/manage.html) file i
  - Cloudinary image upload and display  on manage.html page feature is complete, You can use the images in the images folder to test the image upload functionality.
 
  - Database Integration: Replace in-memory data with a persistent database (e.g., Mongo) to store menus data permamnently. 🐘 
- -- Create One
- -- get all
- -- get one by id
- -- upload image by id
+ - - Create One
+ - - get all
+ - - get one by id
+ - - upload image by id
 
 
  - Image: Implement product image uploads.
