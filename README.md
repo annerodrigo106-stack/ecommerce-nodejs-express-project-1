@@ -54,8 +54,9 @@ Once that's done open the manage.html (located in: front_end/manage.html) file i
  - Database Integration: Replace in-memory data with a persistent database (e.g., Mongo) to store menus data permamnently. 🐘 
  - - Create One
  - - get all
- - - get one by id
- - - upload image by id
+ - - get one by ID
+ - - Update one by ID
+ - - upload image by ID
 
 
  - Image: Implement product image uploads.
