@@ -56,17 +56,31 @@ router.post('/', async (req, res) => {
   }
 });
 
-// UPDATE a menu item (partial) by MongoDB _id
+// UPDATE a menu item 
 router.patch('/:id', async (req, res) => {
   try {
-    const item = await MenuItem.findById(req.params.id);
-    if (!item) return res.status(404).json({ message: 'Menu item not found' });
-
-    if (req.body.id != null) item.id = req.body.id;
+    // Parse the id parameter as a number
+    const numericId = Number(req.params.id);
+    
+    // Validate it's a valid number
+    if (isNaN(numericId)) {
+      return res.status(400).json({ message: 'Invalid ID format' });
+    }
+    
+    // Find by your custom 'id' field, not MongoDB's '_id'
+    const item = await MenuItem.findOne({ id: numericId });
+    
+    if (!item) {
+      return res.status(404).json({ message: 'Menu item not found' });
+    }
+    
+    // Update only provided fields
     if (req.body.name != null) item.name = req.body.name;
     if (req.body.description != null) item.description = req.body.description;
     if (req.body.price != null) item.price = req.body.price;
-
+    // Don't allow updating the id field to prevent conflicts
+    // if (req.body.id != null) item.id = req.body.id;
+    
     const updatedItem = await item.save();
     res.json(updatedItem);
   } catch (err) {
