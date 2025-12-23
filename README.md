@@ -59,4 +59,4 @@ Once that's done open the manage.html (located in: front_end/manage.html) file i
  - Front end integration partially complete: The front end that supports the CRUD operations for the product data is paritally complete and exists in the manage.html file in the front_end folder.
 
 ## Some Screen shots
-![manage.html]("./images/Screenshot 2025-12-23 015055.jpg")
+![manage.html](https://github.com/annerodrigo106-stack/ecommerce-nodejs-express-project-1/blob/main/images/Screenshot%202025-12-23%20015055.jpg)
