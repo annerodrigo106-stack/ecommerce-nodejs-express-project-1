@@ -27,8 +27,8 @@ router.get('/', async (req, res) => {
 // GET one menu item by MongoDB _id
 router.get('/:id', async (req, res) => {
   try {
-    const item = await MenuItem.findById(req.params.id);
-    if (!item) return res.status(404).json({ message: 'Menu item not found' });
+    const item = await MenuItem.findOne({ id: Number(req.params.id) });
+    if (!item) return res.status(404).json({ message: 'Item not found' });
     res.json(item);
   } catch (err) {
     res.status(500).json({ message: err.message });
