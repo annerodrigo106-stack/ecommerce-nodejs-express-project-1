@@ -37,14 +37,18 @@ router.get('/:id', async (req, res) => {
 
 // CREATE a new menu item
 router.post('/', async (req, res) => {
-  const item = new MenuItem({
-    id: req.body.id,
-    name: req.body.name,
-    description: req.body.description,
-    price: req.body.price
-  });
-
   try {
+    // Find the highest existing ID and add 1
+    const lastItem = await MenuItem.findOne().sort({ id: -1 });
+    const nextId = lastItem ? lastItem.id + 1 : 1;
+    
+    const item = new MenuItem({
+      id: nextId,
+      name: req.body.name,
+      description: req.body.description,
+      price: req.body.price
+    });
+    
     const newItem = await item.save();
     res.status(201).json(newItem);
   } catch (err) {
