@@ -60,3 +60,6 @@ Once that's done open the manage.html (located in: front_end/manage.html) file i
 
 ## Some Screen shots
 ![manage.html](https://github.com/annerodrigo106-stack/ecommerce-nodejs-express-project-1/blob/main/images/Screenshot%202025-12-23%20015055.jpg)
+
+
+![manage.html 2](https://github.com/annerodrigo106-stack/ecommerce-nodejs-express-project-1/blob/main/images/Screenshot%202025-12-23%20015651.jpg)
