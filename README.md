@@ -6,7 +6,10 @@ Node JS express ecommerce project
 
 View Menu: Browse a list of available food items. 📜 Add to Cart: Select items and add them to an in-memory shopping cart. 🛒 View Cart: Review selected items and total cost. 💰 🚀 Getting Started To run this project locally, make sure you have Node.js installed. Prerequisites
 
+## Requirements
 You need Node JS and NPM installed.
+
+## Usage
 ```
 cd ecommerce-express-restaurant-main
 ```
@@ -25,7 +28,9 @@ node app.js
 ```
 The server will start at http://localhost:3000.
 
-Once that's done open the manage.html (front_end/manage.html) file in your browser
+Once that's done open the manage.html (located in: front_end/manage.html) file in your browser
+
+## To do List
 
 🏗️ Future Enhancements This project is a starting point. The following essential e-commerce features are planned for future releases:
 
