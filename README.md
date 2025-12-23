@@ -36,8 +36,8 @@ Once that's done open the manage.html (located in: front_end/manage.html) file i
 
 [Cloudinary image upload and display  on manage.html page feature is complete, You can use the images in the images folder to test the image upload functionality.] 
 
-[Database integration is partially complete: It can perform CRUD operations on the Product Data]
- - the crud functionality listed below is complete
+[Database integration is partially complete: It can perform the CRUD operations listed below on the Product Data]
+ - Create One
  - get all
  - get one by id
  - upload image by id
