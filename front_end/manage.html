@@ -625,15 +625,16 @@
             e.preventDefault();
             console.log('Update form submitted');
             
-            const id = document.getElementById('updateId').value;
+            
             const data = {
+		        id: document.getElementById('updateId').value,
                 name: document.getElementById('updateName').value,
                 description: document.getElementById('updateDescription').value,
                 price: parseFloat(document.getElementById('updatePrice').value)
             };
 
-            fetch(`${API_URL}/${id}`, {
-                method: 'PUT',
+            fetch(`${API_URL}/${data.id}`, {
+                method: 'PATCH',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
             })
